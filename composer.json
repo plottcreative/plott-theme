@@ -1,0 +1,20 @@
+{
+    "name": "plott/plott-theme",
+    "description": "Foundation of the PLOTT OS Theme. Provides all custom functionallities which it offers",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Plott\\PlottTheme\\": "src/Theme/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashley Armstrong",
+            "email": "ashley@plott.co.uk"
+        }
+    ]
+}
